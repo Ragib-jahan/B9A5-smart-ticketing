@@ -175,8 +175,8 @@
                     <div class="flex flex-1 justify-center items-center">
                         <div>
                             <img src="images/fare.png" alt="">
-                            <h1>550 Taka</h1>
-                            <h3>Per Seat</h3>
+                            <h1 class="font-ra font-bold text-[32px]">550 Taka</h1>
+                            <h3 class="font-ra font-semibold text-[24px] text-[#03071299]">Per Seat</h3>
                         </div>
                     </div>
                 </div>
@@ -186,19 +186,23 @@
             <section id="Ticket-Section" class="card-body mb-32">
                 <div class="flex justify-between">
                     <div>
-                        <h1>Select Your Seat</h1>
-                        <div class="flex">
-                            <div class="flex">
-                                <img src="images/seat-gray.png" alt="">
-                                <h3>Available</h3>
+                        <h1 class="font-ra font-semibold text-[24px] mb-10">Select Your Seat</h1>
+                        <div>
+                            <div class="flex justify-between">
+                                <div class="flex">
+                                    <img src="images/seat-gray.png" alt="">
+                                    <h3>Available</h3>
+                                </div>
+                                <div class="flex mr-20">
+                                    <img src="images/seat-green-filled.png" alt="">
+                                    <h3>Selected</h3>
+                                </div>
                             </div>
-                            <div class="flex">
-                                <img src="images/seat-green-filled.png" alt="">
-                                <h3>Selected</h3>
+                            <div class="flex justify-end mr-20 mb-5">
+                                <button class="btn"><img src="images/wheel.png" alt=""></button>
                             </div>
                         </div>
-                        <button class="btn"><img src="images/wheel.png" alt=""></button>
-                        <div class="grid grid-cols-2 gap-20">
+                        <div class="grid grid-cols-2 gap-x-20">
                             <div>
                                 <div class="grid grid-cols-3 gap-5">
                                     <h1 class="flex justify-center items-center">A</h1>
@@ -226,7 +230,7 @@
                         </div>
                     </div>
                     <div>
-                        <h1>Select Your Seat</h1>
+                        <h1 class="font-ra font-semibold text-[24px] mb-10">Select Your Seat</h1>
                         <div class="card bg-[#F7F8F8] text-black">
                             <div class="card-body font-in">
                                 <div class=" gap-28 grid grid-cols-3 font-medium">
@@ -290,15 +294,15 @@
                                     <h1 class="pr-12">BDT<Span id="total-price">0</Span></h1>
                                 </div>
                                 <div class="flex">
-                                    <input type="text" placeholder="Have any coupon?"
+                                    <input id="discount-input" type="text" placeholder="Have any coupon?"
                                         class="input input-bordered w-full max-w-xs" /><button
-                                        class="btn bg-[#1DD100] text-white">Apply</button>
+                                        class="btn bg-[#1DD100] text-white" onclick="discount ()">Apply</button>
                                 </div>
                                 <div class="flex">
                                     <h1 class="flex-1">Grand Price</h1>
                                     <h1 class="pr-12">BDT<Span id="grand-price">0</Span></h1>
                                 </div>
-                                <button onclick="successSectionOn()" class="btn bg-[#1DD100] text-white">Button</button>
+                                <button onclick="successSectionOn()" class="btn bg-[#1DD100] text-white">Next</button>
                             </div>
                         </div>
                     </div>

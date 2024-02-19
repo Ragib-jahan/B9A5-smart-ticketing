@@ -30,13 +30,7 @@ function countSeatsLeft(elementId) {
     }
 }
 
-// function calculateTicketPrice(elementId) {
-//     const ticketPriceText = document.getElementById(elementId);
-//     const ticketPriceNumber = ticketPriceText.innerText;
-//     const ticketPrice = parseFloat(ticketPriceNumber);
-//     return ticketPrice
 
-// }
 
 
 
