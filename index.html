@@ -89,6 +89,45 @@
 
             <!-- Coupon Section -->
             <section>
+                <h1 class="font-ra font-bold text-4xl text-center mt-32 mb-14">Best offers for you</h1>
+                <div class="grid grid-cols-2 gap-32">
+                    <div class="card-body rounded-[32px] bg-[#FFBF0F]">
+                        <div class="flex justify-between">
+                            <div>
+                                <h1 class="font-in font-black text-[40px]">15% OFF</h1>
+                                <h2 class="font-in font-semibold text-[20px]">on your next purchase</h2>
+                                <h3 class="fotnt-in font-medium text-[18px]">use by January 2024</h3>
+                            </div>
+                            <div class="flex items-center">
+                                <div>
+                                    <h1 class="text-[32px] font-in font-bold">NEW15</h1>
+                                    <h2 class="text-[20px] font-medium">Coupon Code</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body rounded-[32px] bg-[#F78C9C]">
+                        <div class="flex justify-between">
+                            <div>
+                                <h1 class=" font-in font-black text-[40px]">20% OFF</h1>
+                                <h2 class="font-in font-semibold text-[20px]">on your next purchase</h2>
+                                <h3 class="fotnt-in font-medium text-[18px]">use by January 2024</h3>
+                            </div>
+                            <div class="flex items-center">
+                                <div>
+                                    <h1 class="text-[32px] font-in font-bold">Couple 20</h1>
+                                    <h2 class="text-[20px] font-medium">Coupon Code</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class=" text-center mt-14">
+                    <button class="font-re font-bold btn bg-white border-[#1DD100]  text-[#1DD100] text-[20px]">See All
+                        Offers</button>
+                </div>
+
 
             </section>
 
@@ -144,7 +183,7 @@
             </section>
 
             <!-- Ticket Section -->
-            <section inputmode="Ticket-Section" class="card-body mb-32">
+            <section id="Ticket-Section" class="card-body mb-32">
                 <div class="flex justify-between">
                     <div>
                         <h1>Select Your Seat</h1>
@@ -202,7 +241,7 @@
                                     class=" hidden gap-28 grid grid-cols-3 text-[#03071299] font-in font-normal">
                                     <h1>A1</h1>
                                     <h1>Economoy</h1>
-                                    <h1>550</h1>
+                                    <h1 id="ticket-pice">550</h1>
                                 </div>
                                 <div id="A2"
                                     class=" hidden gap-28 grid grid-cols-3 text-[#03071299] font-in font-normal">
@@ -248,7 +287,7 @@
                                 </div>
                                 <div class="flex">
                                     <h1 class="flex-1">Total Price</h1>
-                                    <h1 class="pr-12">BDT<Span>1100</Span></h1>
+                                    <h1 class="pr-12">BDT<Span id="total-price">0</Span></h1>
                                 </div>
                                 <div class="flex">
                                     <input type="text" placeholder="Have any coupon?"
@@ -257,7 +296,7 @@
                                 </div>
                                 <div class="flex">
                                     <h1 class="flex-1">Grand Price</h1>
-                                    <h1 class="pr-12">BDT<Span>1100</Span></h1>
+                                    <h1 class="pr-12">BDT<Span id="grand-price">0</Span></h1>
                                 </div>
                                 <button onclick="successSectionOn()" class="btn bg-[#1DD100] text-white">Button</button>
                             </div>
