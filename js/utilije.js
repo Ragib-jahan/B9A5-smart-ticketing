@@ -31,6 +31,14 @@ function countSeatsLeft(elementId) {
 }
 
 
+function buttonDisable(elementId) {
+    document.getElementById(elementId).disabled = true;
+    document.getElementById(elementId).style.backgroundColor = '#1DD100';
+    document.getElementById(elementId).style.color = 'white';
+}
+
+
+
 
 
 
